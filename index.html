@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 </head>
-<body>
+<body class="document-content">
 	<header class="header-content">
 		<nav>
 			<ol>
@@ -16,13 +17,18 @@
 		</nav>
 	</header>
 	<main class="main-content">
-		<section class="image image-section1"></section>
-		<section class="image image-section2"></section>
-		<section class="image image-section3"></section>
-		<section class="image image-section4"></section>
+		<section class="image image-section-1"></section>
+		<section class="image image-section-2"></section>
+		<section class="image image-section-3"></section>
+		<section class="image image-section-4"></section>
 	</main>
 	<footer class="footer-content">
-		<article class="footer-article"></article>
+		<form class="footer-form">
+			<label for="">
+				<input type="text" class="text-input" id="text">
+			</label>
+			<button id="submit">Submit</button>
+		</form>
 	</footer>
 </body>
 </html>
